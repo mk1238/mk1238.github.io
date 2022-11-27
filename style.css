@@ -1,0 +1,33 @@
+*{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*::selection{
+    background-color: blueviolet;
+}
+body{
+    background-color: black;
+}
+.title, .breeds{
+    text-align: center;
+    padding: 20px;
+
+}
+.c-item{
+    height: 480px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+footer small a:hover{
+    opacity: 50%;
+}
+#flush-collapseThree a:hover{
+    font-size: 110%;
+    opacity: 50%;
+    color: green;
+}
+#sendbutton:hover{
+    background-color: grey;
+}
